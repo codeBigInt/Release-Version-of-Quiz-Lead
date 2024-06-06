@@ -1,0 +1,26 @@
+.circle{
+    background: #f0f0ff;
+    border: 2px solid #564fdc;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+.crossOne, .cross2{
+    width: 20%;
+    height: 100%;
+    background: #f0f0ff;
+    position: absolute;
+}
+.crossOne{
+    transform: rotate(45deg);
+    left: 0;
+}
+.cross2{
+    transform: rotate(135deg);
+    right: 0;
+}
+.spinner{
+    width: 80px;
+    display: flex;
+}

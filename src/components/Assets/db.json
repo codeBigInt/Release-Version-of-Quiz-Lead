@@ -1,0 +1,137 @@
+{
+    "availableCourses": [
+        {
+            "id": "React Js",
+            "course": "React Js",
+            "questions": [
+                {
+                    "id": "q1",
+                    "question": "React js was invented as a contribution to web dev by ___ team",                    "choices": {
+                        "A": "Microsoft",
+                        "B": "Facebook",
+                        "C": "Google",
+                        "D": "Google DEV"
+                    },
+                    "answer": "Facebook"
+                },
+                {
+                    "id": "q2",
+                    "question": "React js is based on ____ component use",
+                    "choices": {
+                        "A": "Functional",
+                        "B": "Componental",
+                        "C": "Obect Javascript",
+                        "D": "Declerative"
+                    },
+                    "answer": "Functional"
+                },{
+                    "id": "q3",
+                    "question": "We use useState hooke in react js for ?",
+                    "choices": {
+                        "A": "State Management",
+                        "B": "Code life cycle",
+                        "C": "State Deprecation",
+                        "D": "State Formation"
+                    },
+                    "answer": "State Management"
+                },{
+                    "id": "q4",
+                    "question": "React js use useEffect Hooke for ___ ?",
+                    "choices": {
+                        "A": "Code Life cycle",
+                        "B": "Function call",
+                        "C": "State Deprecation",
+                        "D": "Context"
+                    },
+                    "answer": "Code Life cycle"
+                }
+            ]
+        },
+        {
+            "id": "JavaScript",
+            "course": "JavaScript",
+            "questions": [
+                {
+                    "id": "q1",
+                    "question": "JS Stands for ____ ?",
+                    "choices": {
+                        "A": "JavaScript",
+                        "B": "Java Scripting",
+                        "C": "Jam Sculpturing",
+                        "D": "I dont Know"
+                    },
+                    "answer": "JavaScript"
+                },
+                {
+                    "id": "q2",
+                    "question": "JavaScript was originally called Livescript, why?",
+                    "choices": {
+                        "A": "It is uesd to add styling properties to document",
+                        "B": "It is used to style links and hrefs",
+                        "C": "It is used to add functionality to documents",
+                        "D": "It is Declerative"
+                    },
+                    "answer": "It is used to add functionality to documents"
+                },{
+                    "id": "q3",
+                    "question": "Javascript became standardized as ___",
+                    "choices": {
+                        "A": "Ecmascript",
+                        "B": "CodeScript",
+                        "C": "LiveScript",
+                        "D": "DocumentScript"
+                    },
+                    "answer": "State Management"
+                }
+            ]
+        },
+        {
+            "id": "Html",
+            "course": "Html",
+            "questions": [
+                {
+                    "id": "q1",
+                    "question": "HTML Stands for ____ ?",
+                    "choices": {
+                        "A": "HyperTextMarkUpLanguage",
+                        "B": "HyperTestMarkingLanguage",
+                        "C": "HyperTextMockUpLanguage",
+                        "D": "HappyDocumentTexting"
+                    },
+                    "answer": "HyperTextMarkUpLanguage"
+                },
+                {
+                    "id": "q2",
+                    "question": "HTML is used for document text ____",
+                    "choices": {
+                        "A": "Formatting",
+                        "B": "Typing",
+                        "C": "Lamination",
+                        "D": "Bioler Plate"
+                    },
+                    "answer": "Formatting"
+                },{
+                    "id": "q3",
+                    "question": "Divs are used for ___",
+                    "choices": {
+                        "A": "Creating Inline containers",
+                        "B": "Creating Block container",
+                        "C": "Spanning Buttons",
+                        "D": "Word container"
+                    },
+                    "answer": "Creating Block container"
+                }
+            ]
+        }
+    ],
+    "registeredUser": [
+      {
+        "email": "adekunlkemartins@gmail.com",
+        "password": "Adekunle111"
+      },
+      {
+        "email": "elliotliucky509@gmail.com",
+        "password": "Elliot123"
+      }
+    ]
+}

@@ -1,0 +1,32 @@
+Color
+main
+#7F8AF0
+
+pink
+#E6427A
+
+orange
+#FF6332
+
+purple
+#863EFF
+
+green
+#4AAF47
+
+sidebar bg
+#F0F0FF
+
+'themeColor': {
+    '50': '#eff3fe',
+    '100': '#e2e8fd',
+    '200': '#cad4fb',
+    '300': '#aab7f7',
+    '400': '#7f8af0',
+    '500': '#6b6fe9',
+    '600': '#564fdc',
+    '700': '#4941c1',
+    '800': '#3d379c',
+    '900': '#35337c',
+    '950': '#201e48',
+},

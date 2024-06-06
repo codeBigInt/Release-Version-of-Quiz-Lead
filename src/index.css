@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: transparent;
+    width: 2px;
+    border: none;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #ccc;
+    border: none;
+    border-radius: 10px;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-hide {
+    scrollbar-width: none;
+  }
+  .background{
+    background: linear-gradient(rgb(170 183 247, 1), rgb(73 65 193, 1));
+  }
+  .btn{
+    padding: 8px 0;
+    width: 20%;
+    border-radius: 5px;
+    background: #111; 
+    box-shadow: 2px -2px 10px #222;
+    color: #fff;
+    font-weight: bolder;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .btn:hover{
+    translate: translateY(-3px);
+  }
+  .danger{
+    background: rgb(65, 28, 28);
+    box-shadow: none;
+  }
+  .evaluate{
+    box-shadow: none;
+    background: rgb(17, 46, 17);
+  }
+  .last{
+    width: 35%;
+    box-shadow: none;
+  }
+  .spec{
+    background: #201e48;
+    box-shadow: none;
+
+  }
+  .finish{
+    color: red;
+    animation: blink 1s infinite;
+  }
+  .blur{
+    background: rgba(255, 255, 255, 0.1);
+    /* backdrop-filter: blur(25px); */
+    border-radius: 10px;
+    padding: .5em;
+  }
+  .time-box{
+    padding: 1em;
+    color: grey;
+    outline: none;
+    background: transparent;
+    font-weight: bold;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    text-align: center;
+  }
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+/* Firefox */
+/* input[type=number] {
+-moz-appearance: textfield;
+} */
+
+
+
+  @keyframes blink {
+    0%, 100%{
+      opacity: 0.8;
+    }
+    50%{
+      opacity: 0.2;
+    }
+  }
